@@ -1,3 +1,4 @@
+// MAKE IT MODULAR
 var mod = require('./06_1.js')
 mod(process.argv[2], process.argv[3], function(err, data){
 	if(err) return console.log(err)

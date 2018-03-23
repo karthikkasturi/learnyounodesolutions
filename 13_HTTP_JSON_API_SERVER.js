@@ -1,3 +1,5 @@
+// HTTP JSON API SERVER
+
 var http = require('http')
 var parser = require('url').parse
 var routes = {
